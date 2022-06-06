@@ -15,7 +15,8 @@ class VideoView(ModelViewSet):
         instance.views += 1
         instance.save()
         serializer = VideoSerializers(instance)
-        return Response(serializer.data )
+        return Response(serializer.data)
+
 
 
 # class VideoCreateView(CreateAPIView):

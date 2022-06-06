@@ -9,6 +9,12 @@ class Video(models.Model):
     views = models.IntegerField(default=0, )
     pub_date = models.DateTimeField(auto_now_add=True)
 
+class Author(models.Model):
+    author = models.CharField(max_length=50)
+    
+
+
+
 
 #комментарии,автор,фильтрация,поисковик
 
