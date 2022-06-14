@@ -6,7 +6,7 @@ from rest_framework.routers import DefaultRouter
 
 router = DefaultRouter()
 router.register('api/v1/video', VideoView)
-
+# router.register('api/v1/author', AuthorView)
 
 urlpatterns = router.urls
 # [
